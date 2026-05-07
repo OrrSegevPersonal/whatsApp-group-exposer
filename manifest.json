@@ -2,7 +2,12 @@
   "manifest_version": 3,
   "name": "WhatsApp Group ID Exposer",
   "version": "1.0.0",
-  "description": "Displays WhatsApp group JIDs in the chat list on web.whatsapp.com",
+  "description": "Shows each WhatsApp group's JID beneath its name in the chat list. Click any JID to copy it.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "permissions": [],
   "content_scripts": [
     {
