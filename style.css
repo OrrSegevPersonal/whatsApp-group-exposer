@@ -1,0 +1,22 @@
+.wa-group-id-badge {
+  display: block;
+  font-family: 'SF Mono', 'Consolas', 'Menlo', 'Courier New', monospace;
+  font-size: 10px;
+  font-weight: 400;
+  color: #8696a0;
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+  margin-top: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+  user-select: text;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+[data-theme="dark"] .wa-group-id-badge,
+.dark .wa-group-id-badge {
+  color: #aebac1;
+}

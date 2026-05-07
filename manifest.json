@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Group ID Exposer",
+  "version": "1.0.0",
+  "description": "Displays WhatsApp group JIDs in the chat list on web.whatsapp.com",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["inject.js"],
+      "matches": ["https://web.whatsapp.com/*"]
+    }
+  ]
+}
